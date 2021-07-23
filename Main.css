@@ -2,8 +2,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: auto;
   width: 63vh;
-  border: 2px solid rgba(0, 0, 0, 0.6);
-  padding: 10px;
   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-oFvD0ICnN-zDmQuJWJCmb8ZaPkXY-1lnHozlli2d6fB0BlAvgjJk6h8RdZVAu4teBr0&usqp=CAU);
   background-repeat: repeat;
 }
@@ -24,19 +22,40 @@ body {
   margin: 1em 0.5em 5em 0.5em;
 
 }
+.ff1 {
+  background: url(https://cdn.pixabay.com/photo/2014/09/22/00/56/lead-singer-455750_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ff2 {
+  background: url(https://media.istockphoto.com/photos/holding-hands-picture-id1248616878?b=1&k=6&m=1248616878&s=170667a&w=0&h=Mwrqx27hQGzxiOqv3tkjsugTmHAonPaRopR8zMeJdxk=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ff3 {
+  background: url(https://media.istockphoto.com/photos/holding-the-medals-for-the-winning-picture-id1301293871?b=1&k=6&m=1301293871&s=170667a&w=0&h=HSfXLVMPFCkI5JXQbXqMXTkO1r0xs6Plgqynvzwl-0w=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .info-box {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 0.5rem;
-  margin: 1em;
-  width: 70vw;
-  height: 20vh;
-  border-radius: 0.5rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 0.3rem;
+  margin: 0.4em;
+  width: 70vh;
+  height: 30vh;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 10px rgba(45, 126, 21, 0.4);
   align-items: center;
-  background: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
 }
 /* Galeries */
 .grid {
@@ -117,7 +136,7 @@ h4 {
 }
 /*footer*/
 .footer-bg {
-  background: rgb(115, 190, 45);
+  background: rgb(117, 197, 42);
   height: 150px;
   position: relative;
   bottom: auto;
@@ -125,7 +144,8 @@ h4 {
   justify-content: space-around;
   align-items: center;
   border-radius: 8px 8px 0 0;
-  padding: 10px;
+  padding: 5px;
+  color: white;
 }
 .list {
   position: relative;
@@ -138,6 +158,16 @@ h4 {
 .copy {
   position: relative;
   bottom: -50px;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.link2 {
+  font-size: 14px;
+  text-transform: uppercase;
 }
 /*Header*/
 .navbar {
