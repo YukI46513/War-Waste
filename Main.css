@@ -279,3 +279,16 @@ h4 {
   text-transform: uppercase;
   margin: 2px;
 }
+.link-close {
+  border-color: rgb(230, 13, 13);
+  color: rgb(230, 13, 13);
+}
+/*** S'inscrire ***/
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-group {
+  width: 55vw;
+}
