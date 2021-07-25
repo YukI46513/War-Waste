@@ -5,6 +5,7 @@ body {
   width: 62vh;
   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-oFvD0ICnN-zDmQuJWJCmb8ZaPkXY-1lnHozlli2d6fB0BlAvgjJk6h8RdZVAu4teBr0&usqp=CAU);
   background-repeat: repeat;
+  scroll-behavior: smooth;
 }
 /* Carousel */
 
@@ -170,6 +171,13 @@ h4 {
 .navbar {
   background: rgba(115, 190, 45, 0.8);
 }
+.dropdown-menu,
+.dropdown-item {
+  background: rgba(115, 190, 45, 0.1);
+  color: white;
+  border: 0px;
+  text-align: center;
+}
 /*************************************************************/
 
 /**************************- évènemnts -**********************************/
@@ -177,7 +185,7 @@ h4 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(7, 50vh);
-  border: 1px solid;
+  padding: 5px;
 }
 .grid-item {
   border: 2px solid;
