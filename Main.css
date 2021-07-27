@@ -1,294 +1,89 @@
-/*************************- Acceuil -***********************************/
+html,
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: auto;
-  width: 62vh;
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-oFvD0ICnN-zDmQuJWJCmb8ZaPkXY-1lnHozlli2d6fB0BlAvgjJk6h8RdZVAu4teBr0&usqp=CAU);
-  background-repeat: repeat;
-  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
-/* Carousel */
-
-/* Block info */
-.titre-info {
-  text-align: center;
-  margin: 1em 0.5em 0.5em 0.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: rgb(17, 175, 17);
-}
-.info {
-  display: flex;
-  justify-content: space-around;
-  margin: 1em 0.5em 5em 0.5em;
-
-}
-.ff1 {
-  background: url(https://cdn.pixabay.com/photo/2014/09/22/00/56/lead-singer-455750_960_720.jpg);
+/**  **/
+.bg-index-viewport {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://cdn.pixabay.com/photo/2015/05/15/14/52/water-768745_960_720.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.ff2 {
-  background: url(https://media.istockphoto.com/photos/holding-hands-picture-id1248616878?b=1&k=6&m=1248616878&s=170667a&w=0&h=Mwrqx27hQGzxiOqv3tkjsugTmHAonPaRopR8zMeJdxk=);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.ff3 {
-  background: url(https://media.istockphoto.com/photos/holding-the-medals-for-the-winning-picture-id1301293871?b=1&k=6&m=1301293871&s=170667a&w=0&h=HSfXLVMPFCkI5JXQbXqMXTkO1r0xs6Plgqynvzwl-0w=);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.info-box {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 0.3rem;
-  margin: 0.4em;
-  width: 70vh;
-  height: 30vh;
-  border-radius: 0.3rem;
-  box-shadow: 0 0 10px rgba(45, 126, 21, 0.4);
-  align-items: center;
-  text-transform: uppercase;
-  font-size: 10px;
-  font-weight: 700;
-  color: white;
-}
-/* Galeries */
-.grid {
-  margin: 0.5em 0.5em 5em 0.5em;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 22vh);
-  padding: 0.5em;
-}
-.titre-grid {
   position: relative;
-  right: -25px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: rgb(17, 175, 17);
 }
-.effect {
-  position: absolute;
-  bottom: 0px;
-  display: flex;
-  flex-direction: row-reverse;
+.effect-viewport {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 1));
   width: 100%;
-  padding: 8px 6px 0 0 ;
-  background: linear-gradient(rgba(20, 160, 20, 0.2), rgba(20, 160, 20, 0.5), rgba(20, 160, 20, 0.8));
+  height: 100%; 
 }
-.effect a,
-h4 {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  font-size: 12px;
-}
-.bg {
-  border: 1px solid greenyellow; 
-  border-radius: 6px;
-  margin: 5px;
-  position: relative;
-}
-.box0 {
-  grid-column: 1/2;
-  grid-row: 1/3;
-  background-image: url(../Img/bulb-216975_960_720.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.box1 {
-  grid-column: 2/4;
-  grid-row: 1/3;
-  background-image: url(../Img/clean-1223168__340.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.box2 {
-  grid-column: 1/3;
-  grid-row: 3;
-  background-image: url(../Img/compost-419261__340.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.box3 {
-  grid-column: 3;
-  grid-row: 3/5;
-  background-image: url(../Img/electricity-3204354_960_720.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.box4 {
-  grid-column: 1/3;
-  grid-row: 4;
-  background-image: url(../Img/garbage-3745004_960_720.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/*footer*/
-.footer-bg {
-  background: rgb(117, 197, 42);
-  height: 150px;
-  position: relative;
-  bottom: auto;
+/****/
+/****/
+.navigation-menu-viewport {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-radius: 8px 8px 0 0;
-  color: white;
-  align-items: center;
+  padding: 2em;
 }
-.list {
-  align-self: center;
-}
-.list-2 {
-  align-self: center;
-}
-.copy {
-  align-self: flex-end;
-}
-.link {
+.navigation-menu-viewport a {
   text-decoration: none;
   color: white;
+  opacity: 0.6;
+  font-weight: bold;
   text-transform: uppercase;
+  font-size: 16px;
+  padding: 0em 5em 1em 5em;
+}
+.home {
+  border-bottom: 5px solid rgba(255, 255, 255, 0.7);
+}
+/****/
+/***/
+.pos-viewport {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-viewport {
+  text-align: center;
+  margin: 5em 0 0 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.title-viewport h1 {
+  font-size: 5.5rem;
+  opacity: 0.8;
+}
+.title-viewport p {
+  font-size: 1.2rem;
+  opacity: 0.6;
+}
+.title-viewport .fi-rr-world {
+  font-size: 2rem;
+  opacity: 0.7;
+}
+/****/
+.pos-viewport-2 {
+  color: white;
+  position: absolute;
+  bottom: 5vh;
+  width: 100%;
+}
+.objectif-viewport {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.objectif-viewport .item {
+  margin: 0 2em 1.5em 2em;  
+}
+.objectif-viewport .item p {
   font-size: 13px;
 }
-.link2 {
-  font-size: 14px;
-  text-transform: uppercase;
-}
-/*Header*/
-.navbar {
-  background: rgba(115, 190, 45, 0.8);
-}
-.dropdown-menu,
-.dropdown-item {
-  background: rgba(115, 190, 45, 0.1);
-  color: white;
-  border: 0px;
-  text-align: center;
-}
-/*************************************************************/
-
-/**************************- évènemnts -**********************************/
-.grid-évent {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(7, 50vh);
-  padding: 5px;
-}
-.grid-item {
-  border: 2px solid;
-  margin: 10px;
-  position: relative;
-}
-.item-1 {
-  border-color: green;
-  background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/59/trail-running-1245982__340.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;
-}
-.item-2 {
-  border-color: green;
-  background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/59/trail-running-1245982__340.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;
-}
-.item-3 {
-  border-color: green;
-  background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/59/trail-running-1245982__340.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;
-}
-.item-4 {
-  border-color: green;
-  background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/59/trail-running-1245982__340.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;
-}
-.item-5 {
-  border-color: green;
-  background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/59/trail-running-1245982__340.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;;
-}
-.item-6 {
-  border-color: green;
-  background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/59/trail-running-1245982__340.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;
-}
-.item-7 {
-  border-color: green;
-  background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/59/trail-running-1245982__340.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;
-}
-.text {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  position: absolute;
-  bottom: 0;
-  padding: 5px 10px 5px 10px;
-  border-top: 5px solid rgb(117, 197, 42);
-  background: white;
-  width: 100%;
-  border-radius: 0 0 18px 18px;
-}
-.text h3 {
-  font-size: 14px;
-}
-.text p {
-  font-size: 10px;
-}
-.link-jpc {
-  font-size: 12px;
-  align-self: flex-end;
-  text-decoration: none;
-  color: rgb(100, 173, 31);
-  border: 1px solid rgb(100, 173, 31);
-  padding: 3px 10px 4px 10px;
-  text-align: center;
-  align-items: center;
-  border-radius: 25px;
-  text-transform: uppercase;
-  margin: 2px;
-}
-.link-close {
-  border-color: rgb(230, 13, 13);
-  color: rgb(230, 13, 13);
-}
-/*** S'inscrire ***/
-.modal-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.input-group {
-  width: 55vw;
-}
+.objectif-viewport .item .fi-rr-angle-down {
+  font-size: 1.8em;
+} 
+/****/
+/****/
